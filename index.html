@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xolboyeva Zulayho" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__pending">
+          <img
+            style="transform: translateX(50px)"
+            src="./images/pokemon logo.png"
+            alt="logo"
+            width="210"
+            height="100"
+            class="header__logo"
+          />
+          <div class="wrapp">
+            <h1 class="head">Result</h1>
+            <input
+              id="result"
+              class="result"
+              type="text"
+              placeholder="0"
+              disabled
+            />
+          </div>
+          <img
+            src="./images/pokemon logo2.png"
+            alt="logo"
+            width="210"
+            height="100"
+            class="header__logo"
+          />
+        </div>
+      </header>
+
+      <!-- end of header -->
+
+      <main class="main">
+        <ul id="list" class="list"></ul>
+      </main>
+    </div>
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
